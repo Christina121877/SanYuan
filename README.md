@@ -254,3 +254,11 @@ MIT © 2026 Christina121877
 
 <p align="center">🌟 三垣 · 让 AI Agent 的通信清晰可见 🌟</p>
 <p align="center"><sub>⚡ 零依赖 · 一条命令 · 三方通信可视化 ⚡</sub></p>
+
+---
+
+**🙏 致谢**
+
+三垣的概念与视觉设计来自 **Christina（朱芯莹）**——灵感源于她对中国古代三垣星官体系的理解，以及对 AI Agent 通信可视化的独特构想。🌌
+
+<p align="center"><sub>Made with ❤️ by Christina · 2026</sub></p>
