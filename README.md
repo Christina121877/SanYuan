@@ -28,9 +28,21 @@
 
 ---
 
+<p align="center">
+  <a href="https://Christina121877.github.io/SanYuan/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_在线体验-三垣看板-FCA9B7?style=for-the-badge" alt="在线体验">
+  </a>
+</p>
+
 ## 🎬 效果预览
 
 > 三个 Agent 各自写入消息文件 → 一条命令生成看板 → 浏览器打开即可查看
+
+<p align="center">
+  <a href="https://Christina121877.github.io/SanYuan/" target="_blank">
+    <img src="https://img.shields.io/badge/🖥️_点击查看-实时看板-8B5CF6?style=for-the-badge" alt="实时看板">
+  </a>
+</p>
 
 ```
 📁 SanYuan/
@@ -43,11 +55,12 @@
 ```
 
 **看板效果：**
-- 🌌 粉紫光粒子动态背景
-- ✨ 三个 Agent 消息按时间线排列
-- 🎨 每方独立配色（蜜桃粉 · 翡翠绿 · 星云紫）
-- 🔄 一键刷新
-- 📱 移动端自适应
+- 🌌 200颗闪烁粒子 + 十字星芒 + 星线相连
+- 🎨 三垣独立配色（蜜桃粉 · 翡翠绿 · 星云紫）
+- 🔍 **实时搜索** — 按内容/日期/发送方筛选消息
+- 📊 **统计柱状图** — 每日消息量一目了然
+- 🃏 **Agent状态卡** — 每人消息数 + 呼吸灯
+- 🔄 一键刷新 · 移动端自适应
 
 ---
 
