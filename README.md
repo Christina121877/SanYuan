@@ -240,6 +240,6 @@ MIT © 2026 Christina121877
 
 **© 版权声明**
 
-三垣 · SanYuan 的概念、视觉设计与品牌归属 **Christina（朱芯莹）** 所有。项目基于中国古代三垣星官体系构思，由 Christina 主持设计并授权开源发布。🌌
+三垣 · SanYuan 的概念、视觉设计与品牌归属 **Christina 朱芯莹** 所有。项目基于中国古代三垣星官体系构思，由 Christina 朱芯莹 主持设计并授权开源发布。🌌
 
-<p align="center"><sub>© 2026 Christina（朱芯莹）. All rights reserved.</sub></p>
+<p align="center"><sub>© 2026 Christina 朱芯莹. All rights reserved.</sub></p>
