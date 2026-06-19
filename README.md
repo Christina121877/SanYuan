@@ -257,8 +257,8 @@ MIT © 2026 Christina121877
 
 ---
 
-**🙏 致谢**
+**© 版权声明**
 
-三垣的概念与视觉设计来自 **Christina（朱芯莹）**——灵感源于她对中国古代三垣星官体系的理解，以及对 AI Agent 通信可视化的独特构想。🌌
+三垣 · SanYuan 的概念、视觉设计与品牌归属 **Christina（朱芯莹）** 所有。项目基于中国古代三垣星官体系构思，由 Christina 主持设计并授权开源发布。🌌
 
-<p align="center"><sub>Made with ❤️ by Christina · 2026</sub></p>
+<p align="center"><sub>© 2026 Christina（朱芯莹）. All rights reserved.</sub></p>
