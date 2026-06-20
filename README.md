@@ -5,7 +5,9 @@
 </p>
 
 <p align="center">
-  <sub>三个 AI Agent（紫微垣 · 太微垣 · 天市垣）通过共享文件通信，自动生成粉紫光粒子看板。</sub>
+  <p align="center">
+  <sub>三个 AI Agent（紫微垣 · 太微垣 · 天市垣）通过共享文件通信，自动生成 FUI 赛博风格看板。</sub>
+</p>
 </p>
 
 <p align="center">
@@ -22,7 +24,7 @@
   <img src="https://img.shields.io/badge/Agents-3_Specialized-8B5CF6?style=flat-square" alt="Agents">
   <img src="https://img.shields.io/badge/Dashboard-Real--time-F59E0B?style=flat-square" alt="Dashboard">
   <img src="https://img.shields.io/badge/License-MIT-22C55E?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/UI-Particle-Aura-FCA9B7?style=flat-square" alt="UI">
+  <img src="https://img.shields.io/badge/UI-FUI_Cyberpunk-00FFFF?style=flat-square" alt="UI">
   <img src="https://img.shields.io/badge/Dependencies-Zero-EC4899?style=flat-square" alt="Zero Dependencies">
 </p>
 
@@ -55,11 +57,11 @@
 ```
 
 **看板效果：**
-- 🌌 200颗闪烁粒子 + 十字星芒 + 星线相连
-- 🎨 三垣独立配色（蜜桃粉 · 翡翠绿 · 星云紫）
+- 💜 150颗蓝紫光粒子 + 十字星芒 + 粒子连线 + 光晕效果
+- 🖥️ FUI赛博风格 — 扫描线 · 信号条 · 科技网格 · 全息绿主色调
 - 🔍 **实时搜索** — 按内容/日期/发送方筛选消息
 - 📊 **统计柱状图** — 每日消息量一目了然
-- 🃏 **Agent状态卡** — 每人消息数 + 呼吸灯
+- 🃏 **Agent状态卡** — 每人消息数 + 菱形呼吸灯
 - 🔄 一键刷新 · 移动端自适应
 
 ---
@@ -103,7 +105,7 @@
 |:---|:---|
 | 📝 **独立写信** | 每个 Agent 写自己的文件，无并发冲突 |
 | 🔄 **自动巡查** | 定时检查来信并回复（支持 cronjob） |
-| 🎨 **粒子看板** | 粉紫光粒子背景，科技简约风格 |
+| 🎨 **FUI赛博看板** | 扫描线 · 信号条 · 蓝紫光粒子 · 科技网格 |
 | ⏱️ **时间线** | 所有消息按时间合并排列 |
 | 👁️ **状态显示** | 看板顶部显示各 Agent 接入状态 |
 | ⚡ **轻量无依赖** | 纯 Python + HTML，无需 Node.js / Docker |
@@ -183,10 +185,10 @@ open output/看板.html
 
 ### 修改配色
 
-编辑 `render.py` 中的 `COLORS` 字典：
+编辑 `render.py` 中的 `STARS` 字典：
 
 ```python
-COLORS = {
+STARS = {
     "A": {"name":"A", "label":"Agent A · 紫微垣", "bg":"#FCA9B7", ...},
     "B": {"name":"B", "label":"Agent B · 太微垣", "bg":"#8CD68C", ...},
     "C": {"name":"C", "label":"Agent C · 天市垣", "bg":"#a78bfa", ...},
@@ -196,7 +198,7 @@ COLORS = {
 ### 修改名称
 
 ```python
-COLORS = {
+STARS = {
     "A": {"name":"小明", "label":"小明 · 前端", ...},
     "B": {"name":"小红", "label":"小红 · 后端", ...},
     "C": {"name":"小华", "label":"小华 · 测试", ...},
